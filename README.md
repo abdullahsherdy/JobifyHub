@@ -19,12 +19,12 @@ JobifyHub is a backend service designed for job seekers and employers to connect
 
 ## ⚙️ Tech Stack
 
-- Java 17+
-- Spring Boot 3.x
+- Java 21
+- Spring Boot 3.4.4
 - Spring Web
 - Spring Data JPA
 - Lombok
-- PostgreSQL / MySQL
+- MySQL
 - Spring Security *(optional)*
 - Validation API
 - Maven
@@ -37,7 +37,7 @@ JobifyHub is a backend service designed for job seekers and employers to connect
 src/
 └── main/
 ├── java/
-│   └── com/talentconnect/employmentsystem/
+│   └── com/JobifyHub/employmentsystem/
 │       ├── config/
 │       ├── controller/
 │       ├── dto/
